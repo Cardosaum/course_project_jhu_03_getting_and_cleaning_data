@@ -50,6 +50,8 @@ The `data` directory have the following tree:
 The `scripts` folder contains just one file: `run_analysis.R`. 
 This script takes the files listed in `CodeBook.md`, combine them and return a merged dataframe, as requested by the command of the course assignment.
 
+</br>
+</br>
 ### Project Assignment objective
 
 For a more fully understanding of the problem proposed, I reproduce below the assignment:
