@@ -54,7 +54,6 @@ This script takes the files listed in `CodeBook.md`, combine them and return a m
 
 For a more fully understanding of the problem proposed, I reproduce below the assignment:
 <hr>
-</br>
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
 
 <b>Review criteria</b>
