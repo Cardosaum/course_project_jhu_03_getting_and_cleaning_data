@@ -56,6 +56,7 @@ For a more fully understanding of the problem proposed, I reproduce below the as
 <hr>
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
 
+
 <b>Review criteria</b>
 
 1. The submitted data set is tidy.  
