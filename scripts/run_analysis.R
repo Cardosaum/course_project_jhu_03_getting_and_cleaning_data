@@ -5,6 +5,10 @@
 # load libraries
 library(tidyverse)
 
+# supress warning messages
+oldw <- getOption("warn")
+options(warn = -1)
+
 # set the working directory
 if (!as.logical(grep("scripts$", getwd()))){
     setwd("./scripts")
@@ -71,3 +75,6 @@ write_csv(final_data_grouped, "../data/results/uci_grouped.csv")
 
 # (requested by submission assignment) return `final_data_grouped` in the end of script execution
 print(final_data_grouped)
+
+# restore warning messages
+options(warn = oldw)
