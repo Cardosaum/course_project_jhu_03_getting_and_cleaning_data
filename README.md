@@ -7,9 +7,11 @@ This repo contains all the code and data submitted in the course project for [Ge
 All the data needed to complete this project resides in the `data` directory. 
 There are two main folders: `uci`, which stores the raw data, and `results`, which stores the processed files.
 The `data` directory have the following tree:
+
 ```text
 .
 ├── results
+│   ├── file_submission.txt
 │   ├── uci_all.csv
 │   └── uci_grouped.csv
 ├── uci
@@ -47,6 +49,7 @@ The `data` directory have the following tree:
 │       └── y_train.txt
 └── uci.zip
 ```
+
 The `scripts` folder contains just one file: `run_analysis.R`. 
 This script takes the files listed in `CodeBook.md`, combine them and return a merged dataframe, as requested by the command of the course assignment.
 

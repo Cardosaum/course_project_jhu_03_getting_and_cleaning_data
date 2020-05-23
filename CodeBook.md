@@ -27,6 +27,7 @@ Briefly, this scripts does the following:
 4. Select only the colunms _type_, _activity_, _subject_, and colunms containing _*mean*_ and _*std*_. 
 5. From dataframe of the previous step, create a subset with the average of each variable for each _activity_ and each _subject_. 
 6. Finaly, write dataframes of both steps 4 and 5 to csv files named `./data/results/uci_all.csv` and `./data/results/uci_grouped.csv`, respectively.
+7. Also, asked by project assingment, write dataframe from step 5 to a file named `./data/results/file_submission.txt`.
 
 ### Important observations
 
