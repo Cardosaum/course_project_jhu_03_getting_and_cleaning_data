@@ -72,6 +72,7 @@ final_data_grouped <- final_data_all %>% select(-type) %>% group_by(activity, su
 # write processed dataframes to csv
 write_csv(final_data_all, "../data/results/uci_all.csv")
 write_csv(final_data_grouped, "../data/results/uci_grouped.csv")
+write.table(final_data_grouped, "../data/results/file_submission.txt", row.names = FALSE)
 
 # (requested by submission assignment) return `final_data_grouped` in the end of script execution
 print(final_data_grouped)
