@@ -28,4 +28,7 @@ Briefly, this scripts does the following:
 5. From dataframe of the previous step, create a subset with the average of each variable for each _activity_ and each _subject_. 
 6. Finaly, write dataframes of both steps 4 and 5 to csv files named `./data/results/uci_all.csv` and `./data/results/uci_grouped.csv`, respectively.
 
+### Important observations
 
+For `./setup.R` and `./scripts/run_analysis.R` to run properly, *your working directory should be the root directory of the repository*.
+i.e. your working directory must be `./course_project_jhu_03_getting_and_cleaning_data/`.
