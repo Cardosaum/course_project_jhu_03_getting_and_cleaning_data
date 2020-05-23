@@ -5,6 +5,11 @@
 # load libraries
 library(tidyverse)
 
+# set the working directory
+if (!as.logical(grep("scripts$", getwd()))){
+    setwd("./scripts")
+}
+
 # read the datasets
 ## first we specify the file names 
 features_file       <- "../data/uci/features.txt"
@@ -63,3 +68,6 @@ final_data_grouped <- final_data_all %>% select(-type) %>% group_by(activity, su
 # write processed dataframes to csv
 write_csv(final_data_all, "../data/results/uci_all.csv")
 write_csv(final_data_grouped, "../data/results/uci_grouped.csv")
+
+# (requested by submission assignment) return `final_data_grouped` in the end of script execution
+print(final_data_grouped)
